@@ -1,0 +1,9 @@
+[package]
+name = "edn2csv"
+version = "0.1.0"
+authors = ["Brian Rowe <briprowe@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+edn = "0.3.0"
+csv = "1.0.2"
