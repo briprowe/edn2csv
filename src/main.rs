@@ -20,7 +20,7 @@ impl<'a> EdnPrinter<'a> {
 
 impl<'a> From<&'a edn::Value> for EdnPrinter<'a> {
     fn from(edn: &'a edn::Value) -> Self {
-        EdnPrinter { edn: edn }
+        EdnPrinter::new(edn)
     }
 }
 
